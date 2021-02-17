@@ -1,0 +1,190 @@
+@font-face {
+  font-family: "Steelfish Rg";
+  src: url("/fonts/steelfish\ rg.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Oxygen";
+  src: url("/fonts/Oxygen-Regular.ttf") format("truetype");
+}
+.firstField {
+  background-color: black;
+}
+.homeOrderNow {
+  color: #d9d9d9;
+  font-family: "Steelfish Rg";
+  font-size: 2rem;
+  padding-top: 10px;
+}
+.rectangleFieldOne {
+  background-image: url(/images/rectangleOne.png);
+  background-size: cover;
+}
+.rectangleOneText {
+  color: #cccccc;
+  font-weight: bold;
+  font-family: "Steelfish Rg";
+  filter: drop-shadow(1.172px 2.762px 0.5px #1a0f02);
+  font-size: 4.7rem;
+  line-height: 5rem;
+  margin-top: 60px;
+  padding-left: 5%;
+}
+.rectangleOneText2 {
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Oxygen";
+  font-size: 1.2rem;
+  margin-left: 5%;
+  padding-bottom: 50px;
+  margin-top: 10px;
+}
+.vitrenixBottle {
+  margin-top: 100px;
+  padding-bottom: 20px;
+}
+
+.videoPlaceholder {
+  width: 100%;
+  margin-top: 80px;
+}
+.redLine {
+  width: 70%;
+  margin: auto;
+  display: block;
+  margin-top: 80px;
+}
+.text1 {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  color: #d9d9d9;
+  font-weight: 400;
+  font-family: "Oxygen";
+  line-height: 1.7rem;
+  margin-top: 20px;
+}
+.r1 {
+  padding-bottom: 100px;
+}
+.sizeMattersText {
+  color: #d9d9d9;
+  font-weight: bold;
+  font-family: "Steelfish Rg";
+  font-size: 3.5rem;
+  margin-left: 30px;
+}
+.sizeMattersField {
+  background-color: #262626;
+  border: 0px solid #090a0a;
+}
+.text2 {
+  color: #d9d9d9;
+  font-weight: 400;
+  font-family: "Oxygen";
+  font-size: 1.08rem;
+  margin-bottom: 30px;
+}
+.text3 {
+  color: #dd003e;
+  font-weight: bold;
+  font-family: "Steelfish Rg";
+  font-size: 2.4rem;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+.r2 {
+  margin-top: 40px;
+  padding-bottom: 100px;
+}
+.text4 {
+  font-size: 1rem;
+  line-height: 1.1rem;
+  margin-left: 40px;
+  color: #d9d9d9;
+  font-weight: 400;
+  font-family: "Oxygen";
+}
+.text4::before {
+  content: url(/images/redRectangle.png);
+  margin-right: 5px;
+}
+.girl {
+  margin-top: 20px;
+}
+.secondField {
+  background-image: url(/images/secondFieldBackground.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #262626;
+}
+.secondFieldText1 {
+  text-align: center;
+  color: #d9d9d9;
+  font-weight: 700;
+  font-family: "Oxygen";
+  font-size: 2.2rem;
+  padding-top: 80px;
+}
+.secondFieldText2 {
+  text-align: center;
+  color: #d9d9d9;
+  font-weight: 700;
+  font-family: "Steelfish Rg";
+  font-size: 4rem;
+  line-height: 4rem;
+  letter-spacing: 2px;
+}
+.secondFieldText3 {
+  text-align: center;
+  color: #d9d9d9;
+  font-weight: 700;
+  font-family: "Steelfish Rg";
+  font-size: 4rem;
+  letter-spacing: 2px;
+  padding-bottom: 100px;
+  margin-bottom: 0px;
+}
+.rectangleThirdField {
+  background-image: url(/images/fieldThreeRectangle.png);
+  padding-left: 30px;
+}
+.thirdFieldText1 {
+  color: #d9d9d9;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Oxygen";
+  line-height: 1.7rem;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  margin-bottom: 0px;
+}
+.thirdFieldText2 {
+  color: #dd003e;
+  font-weight: 700;
+  font-family: "Oxygen";
+  text-align: right;
+  line-height: 1rem;
+  margin-top: 5px;
+}
+.thirdField {
+  background-color: black;
+  padding-top: 100px;
+}
+.biggerHarderFuller {
+  margin-top: 100px;
+  background-color: #262626;
+  border: 0px solid #090a0a;
+  margin-bottom: 40px;
+}
+.biggerHarderFullerText {
+  color: #d9d9d9;
+  font-weight: bold;
+  font-family: "Steelfish Rg";
+  font-size: 3.5rem;
+  margin-left: 30px;
+}
+.thirdFieldText3 {
+  color: #d9d9d9;
+  font-weight: 400;
+  font-family: "Oxygen";
+}
