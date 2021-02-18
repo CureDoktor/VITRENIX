@@ -7,7 +7,11 @@
   src: url("/fonts/Oxygen-Regular.ttf") format("truetype");
 }
 .firstField {
-  background-color: black;
+  background-color: #0d0d0d;
+}
+.wrapper {
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 .homeOrderNow {
   color: #d9d9d9;
@@ -75,7 +79,6 @@
 }
 .sizeMattersField {
   background-color: #262626;
-  border: 0px solid #090a0a;
 }
 .text2 {
   color: #d9d9d9;
@@ -184,7 +187,543 @@
   margin-left: 30px;
 }
 .thirdFieldText3 {
+  color: #afafaf;
+  font-weight: 400;
+  font-family: "Oxygen";
+  margin-bottom: 40px;
+}
+.thirdFieldText4 {
+  color: #fff;
+  font-weight: 400;
+  font-family: "Oxygen";
+  margin-bottom: 40px;
+}
+.thirdFieldText5 {
+  color: #afafaf;
+  font-weight: 400;
+  font-family: "Oxygen";
+  font-size: 1.4rem;
+}
+.chart {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.vitrenix1 {
+  padding-bottom: 50px;
+}
+.redRectangle1 {
+  border-radius: 50%;
+  width: 7px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+.clinicallyTested {
+  color: #a6a6a6;
+  font-weight: 700;
+  font-family: "Oxygen";
+  text-align: center;
+  font-size: 1.6rem;
+}
+.clinicallyTested1 {
+  color: #a6a6a6;
+  font-weight: 700;
+  font-family: "Steelfish Rg";
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  padding-bottom: 100px;
+  margin-bottom: 0px;
+}
+.fourthField {
+  background-color: #262626;
+}
+.fourthFieldHeader {
+  color: #d9d9d9;
+  font-weight: bold;
+  font-family: "Steelfish Rg";
+  text-align: center;
+  padding-top: 100px;
+  font-size: 4rem;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
+.oneFieldText1 {
   color: #d9d9d9;
   font-weight: 400;
   font-family: "Oxygen";
+  font-size: 1.6rem;
+}
+.oneFieldText2 {
+  color: #d9d9d9;
+  font-weight: 400;
+  font-family: "Oxygen";
+  font-size: 0.85rem;
+  line-height: 1.5rem;
+  margin-bottom: 50px;
+}
+.oneField {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.r3 {
+  padding-bottom: 100px;
+}
+.fifthField {
+  background-color: #0d0d0d;
+}
+.fifthFieldHeader {
+  text-align: center;
+  padding-top: 60px;
+  color: #d9d9d9;
+  font-weight: bold;
+  font-family: "Steelfish Rg";
+  font-size: 4rem;
+  letter-spacing: 2.5px;
+}
+.redLine1 {
+  margin: auto;
+  display: block;
+}
+.fifthFieldText1 {
+  color: #d9d9d9;
+  font-weight: 400;
+  font-family: "Oxygen";
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  line-height: 1.8rem;
+  margin-top: 30px;
+}
+.fifthFieldText2 {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  color: #d9d9d9;
+  font-family: "Oxygen";
+  line-height: 1.7rem;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+.fifthFieldText3 {
+  color: #dd003e;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  text-align: center;
+  font-family: "Oxygen";
+  font-size: 1.5rem;
+}
+.rectangleFifthField {
+  background-color: #262626;
+  border-top: 4px solid #dd003e;
+  height: 500px;
+  width: 105%;
+}
+.rectangleFifthFieldText {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Oxygen";
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+}
+.r4 {
+  margin-top: 150px;
+}
+.stage {
+  color: #ffffff;
+  font-family: "Steelfish Rg";
+  font-size: 2.5rem;
+  margin-bottom: 0px;
+}
+.darkGrey {
+  background-color: #262626;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.rowIngredients {
+  margin-top: 80px;
+}
+.imgBackground {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.imgText1 {
+  color: #d9d9d9;
+  font-weight: bold;
+  font-family: "Steelfish Rg";
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+.imgText2 {
+  color: #d9d9d9;
+  font-family: "Oxygen";
+  font-size: 0.85rem;
+  line-height: 1.7rem;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 0px;
+}
+.fifthFieldHeader1 {
+  text-align: center;
+  padding-top: 60px;
+  color: #d9d9d9;
+  font-weight: bold;
+  font-family: "Steelfish Rg";
+  font-size: 4rem;
+  letter-spacing: 2.5px;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.r5 {
+  padding-bottom: 100px;
+}
+.c1,
+.c2 {
+  margin-top: 80px;
+}
+.fifthFieldRectangle {
+  border-left: 10px solid #dd003e;
+  height: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: #262626;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.fifthFieldRectangleText1 {
+  color: #dd003e;
+  font-weight: 700;
+  font-family: "Oxygen";
+  font-size: 4rem;
+}
+.recImg {
+  padding-top: 10px;
+}
+.fifthFieldRectangleText2 {
+  color: #d9d9d9;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Oxygen";
+  font-size: 0.8rem;
+  line-height: 2rem;
+}
+.sixField {
+  background-image: url(/images/sixFieldBackground.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #262626;
+}
+.sixFieldText1 {
+  color: #d9d9d9;
+  font-weight: bold;
+  font-family: "Steelfish Rg";
+  text-align: center;
+  font-size: 4rem;
+  padding-top: 60px;
+  letter-spacing: 3px;
+}
+.sixFieldText2 {
+  color: #d9d9d9;
+  font-weight: 400;
+  font-family: "Oxygen";
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+  padding-bottom: 100px;
+  line-height: 1.6rem;
+}
+.sevenField {
+  background-color: #0d0d0d;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.div1 {
+  margin-top: 40px;
+  padding-right: 5%;
+}
+.div2 {
+  margin-top: 40px;
+  padding-left: 5%;
+}
+.whatYouCan {
+  background-color: #262626;
+  border: 0px solid #090a0a;
+  margin-bottom: 40px;
+}
+.whatYouCanText {
+  color: #d9d9d9;
+  font-weight: bold;
+  font-family: "Steelfish Rg";
+  font-size: 3.5rem;
+  margin-left: 30px;
+  letter-spacing: 3px;
+}
+.sevenFieldText1 {
+  color: #d9d9d9;
+  font-weight: 400;
+  font-family: "Oxygen";
+  line-height: 1.7rem;
+  margin-top: 10px;
+}
+.r6 {
+  margin-top: 100px;
+}
+.doctor {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.doctorText1 {
+  color: #d9d9d9;
+  font-weight: bold;
+  font-family: "Steelfish Rg";
+  font-size: 4rem;
+  letter-spacing: 3px;
+  line-height: 3.5rem;
+}
+.doctorText2 {
+  color: #d9d9d9;
+  font-weight: 400;
+  font-family: "Oxygen";
+  padding-right: 8%;
+  line-height: 1.7rem;
+}
+.penis {
+  position: absolute;
+  top: 250px;
+  left: 100px;
+}
+.doctor {
+  margin-bottom: -12px;
+}
+.sevenFieldText2 {
+  margin-top: 50px;
+  color: #d9d9d9;
+  font-weight: bold;
+  font-family: "Steelfish Rg";
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+}
+.sevenFieldText3 {
+  color: #d9d9d9;
+  font-weight: 400;
+  font-family: "Oxygen";
+  line-height: 1.6rem;
+  padding-bottom: 100px;
+}
+.graySevenField {
+  text-align: center;
+  width: 85%;
+  margin: auto;
+  padding: 20px;
+  line-height: 2rem;
+  background-color: #262626;
+  color: #d9d9d9;
+  font-weight: 400;
+  font-family: "Oxygen";
+}
+.r7 {
+  background-color: #262626;
+  border-top: 4px solid #dd003e;
+  margin-top: 150px;
+}
+.vitrenixBottle1 {
+  padding-top: 30px;
+}
+.grayFieldText {
+  color: #d9d9d9;
+  font-weight: bold;
+  font-family: "Steelfish Rg";
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+.grayFieldText1 {
+  color: #a6a6a6;
+  font-weight: 400;
+  font-family: "Oxygen";
+  line-height: 1rem;
+}
+.grayFieldText1::before {
+  content: url(/images/check.png);
+  margin-right: 10px;
+  width: 10px;
+  position: absolute;
+  left: -10px;
+}
+.button {
+  border-radius: 30px;
+  background-color: #dd003e;
+  display: block;
+  margin: auto;
+  width: 50%;
+  line-height: 3rem;
+  color: #ffffff;
+  font-family: "Steelfish Rg";
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+.r8 {
+  padding-left: 10%;
+}
+.grayFieldText2 {
+  color: #d9d9d9;
+  font-weight: 400;
+  font-family: "Oxygen";
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+.truck {
+  height: 25px;
+  margin-right: 10px;
+}
+.badge1 {
+  height: 25px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+.r9 {
+  width: 60%;
+  margin: auto;
+}
+.grayFieldText3 {
+  color: #a6a6a6;
+  font-weight: 400;
+  font-family: "Oxygen";
+}
+.eightField {
+  background-color: #262626;
+}
+.flexPart {
+  display: flex;
+}
+.textR10 {
+  color: #d9d9d9;
+  font-weight: bold;
+  font-family: "Steelfish Rg";
+  text-align: center;
+  font-size: 3rem;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  letter-spacing: 1px;
+}
+.r10 {
+  padding-top: 70px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid white;
+}
+.r11 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid white;
+}
+.firstTextR11 {
+  color: #d9d9d9;
+  font-weight: 500;
+  font-family: "Oxygen";
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+.secondTextR11 {
+  color: #d9d9d9;
+  font-weight: 600;
+  font-family: "Oxygen";
+  font-size: 1.4rem;
+}
+.thirdTextR11 {
+  color: #d9d9d9;
+  font-weight: 400;
+  font-family: "Oxygen";
+}
+.patentUS {
+  color: #838383;
+  font-weight: 400;
+  font-family: "Oxygen";
+}
+.fourthTextR11 {
+  color: #d9d9d9;
+  font-weight: 600;
+}
+.fifthTextR11 {
+  color: #d9d9d9;
+  font-weight: 400;
+  font-family: "Oxygen";
+  font-size: 0.8rem;
+}
+.fourthTextR11 {
+  margin-bottom: 0.5rem;
+}
+
+.sourcesText1 {
+  line-height: 0.5rem;
+}
+.sources {
+  border: 1px solid #595959;
+  margin-top: 55px;
+  width: 98.5%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+.sourcesText {
+  color: #737373;
+  font-weight: 700;
+  font-family: "Oxygen";
+  font-size: 1.5rem;
+}
+.sourcesText1 {
+  color: #737373;
+  font-weight: 500;
+  font-family: "Oxygen";
+  font-size: 0.8rem;
+}
+.r12 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.nineField {
+  background-color: #0d0d0d;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+.r14 {
+  background-color: #262626;
+  border-top: 4px solid #dd003e;
+}
+.button1 {
+  border-radius: 30px;
+  background-color: #dd003e;
+  display: block;
+  margin: auto;
+  width: 60%;
+  line-height: 3rem;
+  color: #ffffff;
+  font-family: "Steelfish Rg";
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
