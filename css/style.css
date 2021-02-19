@@ -114,6 +114,111 @@
 .girl {
   margin-top: 20px;
 }
+@media only screen and (max-width: 500px) {
+  .vitrenix {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .phone {
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .homeOrderNow {
+    display: block;
+    margin: auto;
+  }
+  .rectangleOneText {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 30px;
+  }
+  .line {
+    width: 100%;
+  }
+  .rectangleOneText2 {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+  }
+  .vitrenixBottle {
+    margin-top: 0px;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .redLine {
+    width: 90%;
+  }
+  .text1 {
+    width: 90%;
+  }
+  .sizeMattersText {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .text2 {
+    font-size: 0.9rem;
+  }
+  .text3 {
+    line-height: 2.4rem;
+  }
+  .text4 {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+  .girl {
+    margin: auto;
+    display: block;
+  }
+  .r2 {
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .rectangleOneText {
+    font-size: 2rem;
+  }
+  .rectangleOneText2 {
+    font-size: 0.9rem;
+  }
+  .text1 {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+  }
+  .text3 {
+    font-size: 2rem;
+  }
+  .text4 {
+    font-size: 0.8rem;
+    text-indent: -1.2em;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .rectangleOneText {
+    font-size: 1.75rem;
+  }
+  .rectangleOneText2 {
+    font-size: 0.8rem;
+  }
+  .text1 {
+    font-size: 0.8rem;
+  }
+  .text2 {
+    font-size: 0.8rem;
+  }
+  .text3 {
+    font-size: 1.8rem;
+  }
+  .text4 {
+    font-size: 0.7rem;
+    text-indent: -1.4em;
+  }
+}
 .secondField {
   background-image: url(/images/secondFieldBackground.png);
   background-position: center;
@@ -146,6 +251,34 @@
   letter-spacing: 2px;
   padding-bottom: 100px;
   margin-bottom: 0px;
+}
+@media only screen and (max-width: 500px) {
+  .secondFieldText1 {
+    padding-top: 20px;
+    font-size: 1.5rem;
+  }
+  .secondFieldText2 {
+    font-size: 2rem;
+  }
+  .secondFieldText3 {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .secondFieldText1 {
+    font-size: 1.2rem;
+  }
+  .secondFieldText2 {
+    font-size: 1.8rem;
+  }
+  .secondFieldText3 {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .secondFieldText3 {
+    font-size: 0.9rem;
+  }
 }
 .rectangleThirdField {
   background-image: url(/images/fieldThreeRectangle.png);
@@ -235,6 +368,64 @@
   padding-bottom: 100px;
   margin-bottom: 0px;
 }
+@media only screen and (max-width: 500px) {
+  .thirdField {
+    padding-top: 50px;
+  }
+  .rectangleThirdField {
+    padding-left: 15px;
+    padding-right: 10px;
+  }
+  .thirdFieldText2 {
+    padding-right: 10px;
+  }
+  .chris {
+    margin: auto;
+    display: block;
+  }
+  .biggerHarderFuller {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .biggerHarderFullerText {
+    margin-left: 0px;
+  }
+  .thirdFieldText5 {
+    padding-top: 20px;
+    font-size: 1rem;
+  }
+  .chart {
+    margin-top: 20px;
+  }
+  .clinicallyTested1 {
+    font-size: 1.6rem;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .redRectangle1 {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .biggerHarderFullerText {
+    font-size: 2.5rem;
+  }
+  .thirdFieldText5 {
+    font-size: 0.8rem;
+  }
+  .clinicallyTested1 {
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .thirdFieldText5 {
+    font-size: 0.75rem;
+  }
+  .clinicallyTested1 {
+    font-size: 1.3rem;
+  }
+}
 .fourthField {
   background-color: #262626;
 }
@@ -268,6 +459,29 @@
 }
 .r3 {
   padding-bottom: 100px;
+}
+@media only screen and (max-width: 500px) {
+  .fourthFieldHeader {
+    font-size: 2.5rem;
+    padding-top: 50px;
+  }
+  .oneField {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .r3 {
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .fourthFieldHeader {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .fourthFieldHeader {
+    font-size: 1.9rem;
+  }
 }
 .fifthField {
   background-color: #0d0d0d;
@@ -415,6 +629,98 @@
   font-size: 0.8rem;
   line-height: 2rem;
 }
+@media only screen and (max-width: 500px) {
+  .fifthFieldHeader {
+    font-size: 2rem;
+  }
+  .fifthFieldText1 {
+    width: 100%;
+    text-align: left;
+  }
+  .fifthFieldText2 {
+    width: 100%;
+    text-align: left;
+  }
+  .fifthFieldText3 {
+    width: 100%;
+    font-size: 1.3rem;
+  }
+  .r4 {
+    margin-top: 80px;
+  }
+  .rectangleFifthField {
+    width: 90%;
+    margin: auto;
+    height: 480px;
+  }
+  .imageFifthField {
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+  }
+  .stage {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .redLine1 {
+    width: 100%;
+  }
+  .imgText1 {
+    text-align: center;
+    margin-left: 0px;
+  }
+  .imgText2 {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 20px;
+  }
+  .fifthFieldHeader1 {
+    font-size: 2.5rem;
+    width: 100%;
+  }
+  .c1,
+  .c2 {
+    margin-top: 40px;
+  }
+  .vitrenixBottle1 {
+    display: block;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .fifthFieldHeader1 {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .fifthFieldHeader {
+    font-size: 1.8rem;
+  }
+  .fifthFieldText1 {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+  }
+  .fifthFieldText2 {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+  }
+  .fifthFieldText3 {
+    font-size: 1.1rem;
+  }
+  .fifthFieldHeader1 {
+    font-size: 1.5rem;
+  }
+  .fifthFieldRectangle {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .fifthFieldHeader {
+    font-size: 1.55rem;
+  }
+}
 .sixField {
   background-image: url(/images/sixFieldBackground.png);
   background-position: center;
@@ -440,6 +746,32 @@
   margin-top: 30px;
   padding-bottom: 100px;
   line-height: 1.6rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .sixFieldText1 {
+    padding-top: 20px;
+    font-size: 2.5rem;
+  }
+  .sixFieldText2 {
+    width: 100%;
+    padding-bottom: 50px;
+    text-align: left;
+    font-size: 0.9rem;
+  }
+  .sixField {
+    background-image: none;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .sixFieldText1 {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .sixFieldText1 {
+    font-size: 1.45rem;
+  }
 }
 .sevenField {
   background-color: #0d0d0d;
@@ -604,6 +936,134 @@
   font-weight: 400;
   font-family: "Oxygen";
 }
+@media only screen and (max-width: 500px) {
+  .whatYouCanText {
+    margin-left: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .sevenField {
+    padding-top: 50px;
+  }
+  .div1 {
+    padding-right: 15px;
+  }
+  .div2 {
+    padding-left: 15px;
+  }
+  .sevenFieldPicture1 {
+    width: 100%;
+  }
+  .pinkLine {
+    width: 100%;
+  }
+  .penis {
+    display: none;
+  }
+  .doctor {
+    display: block;
+    margin: auto;
+    margin-bottom: -15px;
+  }
+  .doctorText1 {
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    margin-top: 20px;
+  }
+  .doctorText2 {
+    padding-right: 0px;
+  }
+  .sevenFieldText2 {
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+  .sevenFieldText3 {
+    padding-bottom: 50px;
+  }
+  .graySevenField {
+    width: 100%;
+    padding: 10px;
+    line-height: 1.5rem;
+  }
+  .button {
+    width: 80%;
+    font-size: 1.5rem;
+  }
+  .grayFieldText2 {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+  .r9 {
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .whatYouCanText {
+    font-size: 1.5rem;
+  }
+  .doctorText2 {
+    font-size: 0.9rem;
+  }
+  .sevenFieldText3 {
+    font-size: 0.9rem;
+  }
+  .graySevenField {
+    font-size: 0.8rem;
+  }
+  .grayFieldText2 {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .badge1 {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .truck {
+    margin-right: 5px;
+  }
+  .grayFieldText3 {
+    font-size: 0.9rem;
+  }
+  .grayFieldText {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .sevenFieldText2 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .doctorText1 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .button {
+    width: 90%;
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .whatYouCanText {
+    font-size: 1.2rem;
+  }
+  .grayFieldText2 {
+    font-size: 0.73rem;
+  }
+  .grayFieldText3 {
+    font-size: 0.7rem;
+  }
+  .grayFieldText {
+    font-size: 1.8rem;
+  }
+}
 .eightField {
   background-color: #262626;
 }
@@ -703,6 +1163,50 @@ a:active {
   padding-top: 70px;
   padding-bottom: 70px;
 }
+@media only screen and (max-width: 500px) {
+  .clinProv {
+    display: none;
+  }
+  .textR10 {
+    text-align: center;
+    margin: auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .firstTextR11 {
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  .thirdTextR11 {
+    font-size: 0.8rem;
+  }
+  .sources {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .r13 {
+    padding-left: 10%;
+  }
+  .button1 {
+    width: 80%;
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .sourcesText1 {
+    font-size: 0.6rem;
+  }
+  .grayFieldText1 {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .sourcesText1 {
+    font-size: 0.55rem;
+  }
+}
 .nineField {
   background-color: #0d0d0d;
   padding-top: 100px;
@@ -726,4 +1230,109 @@ a:active {
   letter-spacing: 2px;
   margin-top: 10px;
   margin-bottom: 30px;
+}
+.lastField {
+  background-color: black;
+}
+.lastFieldFlex {
+  display: flex;
+}
+.lastFieldText1 {
+  font-family: "Steelfish Rg";
+  color: #737373;
+  font-size: 1.6rem;
+  margin-bottom: 0px;
+  margin-top: -8px;
+  margin-left: 60px;
+}
+.lastFieldText {
+  color: #737373;
+  font-weight: 400;
+  font-family: "Oxygen";
+  font-size: 0.85rem;
+  padding-top: 20px;
+}
+.red {
+  color: #dd003e;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.lastFieldText2 {
+  color: #737373;
+  font-weight: 400;
+  font-family: "Oxygen";
+  font-size: 0.85rem;
+  padding-left: 87.5px;
+  margin-top: 30px;
+}
+.phone1 {
+  height: 22px;
+}
+.r15 {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+@media only screen and (max-width: 500px) {
+  .button1 {
+    width: 80%;
+    font-size: 1.5rem;
+  }
+  .nineField {
+    padding-bottom: 100px;
+  }
+  .vitrenix2 {
+    margin: auto;
+    display: block;
+  }
+  .lastFieldText {
+    text-align: center;
+  }
+  .phone1 {
+    display: block;
+    margin: auto;
+  }
+  .lastFieldText1 {
+    display: none;
+  }
+  .lastFieldText2 {
+    padding-left: 0px;
+    font-size: 0.7rem;
+    display: block;
+    text-align: center;
+    line-height: 1.2rem;
+  }
+  .phone1 {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .button1 {
+    width: 90%;
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .red {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .button1 {
+    font-size: 1.2rem;
+  }
+  .truck {
+    margin-top: -5px;
+  }
+  .badge1 {
+    margin-top: -5px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .lastFieldText {
+    font-size: 0.75rem;
+  }
+  .lastFieldText2 {
+    font-size: 0.6rem;
+  }
 }
